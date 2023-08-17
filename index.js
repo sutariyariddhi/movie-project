@@ -12,7 +12,7 @@ app.set("views",__dirname+"/view");
 
 app.use(express.json());
 app.use(router)
-app.listen(8080,()=>{
+app.listen(9090,()=>{
     console.log("listening on port express")
     connect();
 })
